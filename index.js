@@ -833,7 +833,7 @@ function isValidUUID(uuid) {
 }
 
 const WS_READY_STATE_OPEN = 1;
-const WS_READY_STATE_CLOSING = 2;
+const WS_READY_STATE_CLOSING = 0;
 
 /**
  * Safely closes WebSocket connection.
